@@ -1,0 +1,30 @@
+.app {
+  margin-top: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-gap: 20px;
+}
+
+.content {
+  display: grid;
+  grid-gap: 20px;
+  max-width: 500px;
+}
